@@ -1,0 +1,29 @@
+Navigation:
+1. Change logo or background remove.
+2. Add links to social media and button.
+
+About the Blogger:
+1. Change description
+
+Hannah's Miblog:
+1. lessen the space from date to the title.
+2. Change pictures and content.
+3. Make memorable moments expand its height.
+4. Fix animation for memorable moments.
+5. Change picture border to dotted.
+
+Recent Post:
+1. Change picture and information.
+2. Fix Pop-UP
+3. Replace Profile picture
+4. Follow Me: Add school email.
+
+Footer:
+1. Change footer details.
+
+Important:
+Adjust Media Query Also
+
+Additional:
+Push it to a repository.
+

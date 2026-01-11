@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiBlog - About My New Year</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Jomolhari&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo">MiBlog</div>
+            <div class="social-media">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="btn-see-more">SEE MORE POST</button>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- About the Blogger Section -->
+            <section class="about-blogger">
+                <h2 class="section-header">ABOUT THE BLOGGER</h2>
+                <div class="blogger-info">
+                    <h3 class="blogger-name">Hannah [Your Last Name]</h3>
+                    <p class="blogger-program">BSITWMA - TW21</p>
+                    <p class="blogger-description">
+                        A passionate blogger sharing my journey through technology, creativity, and life. 
+                        I love exploring new ideas and documenting my experiences to inspire others.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Blog Post Section -->
+            <section class="blog-post">
+                <h1 class="post-title">About My New Year</h1>
+                
+                <div class="post-content">
+                    <h3 class="post-subtitle">New Beginnings and Fresh Perspectives</h3>
+                    <div class="image-placeholder">
+                        <!-- Add your image here -->
+                        <span class="placeholder-text">[Image]</span>
+                    </div>
+                    <p class="post-text">
+                        As we step into this new year, I find myself reflecting on all the possibilities 
+                        that lie ahead. There's something magical about the beginning of a new chapter, 
+                        the fresh start that January brings, and the opportunity to set new goals and 
+                        aspirations. This year, I'm committed to growth, learning, and making meaningful 
+                        connections.
+                    </p>
+                    <p class="post-text">
+                        The transition into this new year has been both exciting and contemplative. 
+                        I've spent time thinking about what truly matters to me - my relationships, 
+                        my passions, and the impact I want to make in the world around me.
+                    </p>
+
+                    <h3 class="post-subtitle">Goals and Aspirations for the Year</h3>
+                    <div class="image-placeholder">
+                        <!-- Add your image here -->
+                        <span class="placeholder-text">[Image]</span>
+                    </div>
+                    <p class="post-text">
+                        This year, I'm focusing on several key areas of my life. First and foremost, 
+                        I want to continue developing my skills in web development and technology. 
+                        The field is constantly evolving, and I'm excited to learn new frameworks, 
+                        tools, and best practices that will help me grow as a developer.
+                    </p>
+                    <p class="post-text">
+                        Beyond my professional goals, I'm also committed to personal growth. This means 
+                        taking time for self-care, nurturing relationships with friends and family, and 
+                        exploring new hobbies and interests that bring me joy.
+                    </p>
+
+                    <h3 class="post-subtitle">Embracing Change and Challenges</h3>
+                    <div class="image-placeholder">
+                        <!-- Add your image here -->
+                        <span class="placeholder-text">[Image]</span>
+                    </div>
+                    <p class="post-text">
+                        Change can be intimidating, but I've learned to embrace it as an opportunity 
+                        for growth. This year, I'm challenging myself to step out of my comfort zone, 
+                        try new things, and not be afraid of failure. Every setback is a learning 
+                        experience, and every challenge is a chance to become stronger.
+                    </p>
+                    <p class="post-text">
+                        As I write this first post of the year, I'm filled with optimism and excitement 
+                        for what's to come. Here's to new beginnings, endless possibilities, and a year 
+                        filled with growth, joy, and meaningful experiences. Thank you for joining me 
+                        on this journey!
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2 class="section-header">RECENT POST</h2>
+            
+            <!-- Recent Post Card 1 -->
+            <input type="checkbox" id="modal-1" class="modal-toggle">
+            <label for="modal-1" class="post-card">
+                <div class="post-card-image">
+                    <!-- Add your image here -->
+                    <span class="placeholder-text">[Img]</span>
+                </div>
+                <div class="post-card-content">
+                    <h4 class="post-card-title">My Journey into Web Development</h4>
+                    <p class="post-card-date">January 8, 2026 • 2:30 PM</p>
+                    <p class="post-card-description">
+                        Exploring the world of coding and discovering my passion for creating 
+                        beautiful, functional websites...
+                    </p>
+                </div>
+            </label>
+            
+            <!-- Modal for Post 1 -->
+            <div class="modal-overlay">
+                <div class="modal-content">
+                    <label for="modal-1" class="modal-close">&times;</label>
+                    <div class="modal-image">
+                        <!-- Add your image here -->
+                        <span class="placeholder-text">[Image]</span>
+                    </div>
+                    <div class="modal-details">
+                        <h3 class="modal-title">My Journey into Web Development</h3>
+                        <p class="modal-date">January 8, 2026 • 2:30 PM</p>
+                        <p class="modal-description">
+                            Exploring the world of coding and discovering my passion for creating 
+                            beautiful, functional websites has been an incredible journey. I started 
+                            learning HTML and CSS, then moved on to more advanced topics like 
+                            responsive design and modern web frameworks.
+                            <br><br>
+                            Every day brings new challenges and opportunities to learn. The web 
+                            development community is so supportive and there are countless resources 
+                            available for anyone wanting to start their coding journey. From online 
+                            tutorials to coding bootcamps, the possibilities are endless.
+                            <br><br>
+                            What I love most about web development is the ability to bring ideas to 
+                            life and create experiences that people can interact with. It's a perfect 
+                            blend of creativity and technical skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Post Card 2 -->
+            <input type="checkbox" id="modal-2" class="modal-toggle">
+            <label for="modal-2" class="post-card">
+                <div class="post-card-image">
+                    <!-- Add your image here -->
+                    <span class="placeholder-text">[Img]</span>
+                </div>
+                <div class="post-card-content">
+                    <h4 class="post-card-title">Reflections on 2025</h4>
+                    <p class="post-card-date">December 31, 2025 • 11:45 PM</p>
+                    <p class="post-card-description">
+                        Looking back at the lessons learned and memories made throughout the 
+                        past year...
+                    </p>
+                </div>
+            </label>
+            
+            <!-- Modal for Post 2 -->
+            <div class="modal-overlay">
+                <div class="modal-content">
+                    <label for="modal-2" class="modal-close">&times;</label>
+                    <div class="modal-image">
+                        <!-- Add your image here -->
+                        <span class="placeholder-text">[Image]</span>
+                    </div>
+                    <div class="modal-details">
+                        <h3 class="modal-title">Reflections on 2025</h3>
+                        <p class="modal-date">December 31, 2025 • 11:45 PM</p>
+                        <p class="modal-description">
+                            Looking back at the lessons learned and memories made throughout the 
+                            past year fills me with gratitude. 2025 was a year of growth, challenges, 
+                            and beautiful moments that shaped who I am today.
+                            <br><br>
+                            I learned the importance of resilience, the value of genuine connections, 
+                            and the power of stepping outside my comfort zone. There were difficult 
+                            times, but each challenge taught me something valuable about myself and 
+                            the world around me.
+                            <br><br>
+                            As I close this chapter and prepare for a new year, I carry with me the 
+                            wisdom gained, the friendships strengthened, and the dreams that continue 
+                            to inspire me forward. Here's to the memories of 2025 and the promise of 
+                            what's to come.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Post Card 3 -->
+            <input type="checkbox" id="modal-3" class="modal-toggle">
+            <label for="modal-3" class="post-card">
+                <div class="post-card-image">
+                    <!-- Add your image here -->
+                    <span class="placeholder-text">[Img]</span>
+                </div>
+                <div class="post-card-content">
+                    <h4 class="post-card-title">Tips for Staying Motivated</h4>
+                    <p class="post-card-date">December 28, 2025 • 4:15 PM</p>
+                    <p class="post-card-description">
+                        Sharing my favorite strategies for maintaining motivation and 
+                        productivity during busy times...
+                    </p>
+                </div>
+            </label>
+            
+            <!-- Modal for Post 3 -->
+            <div class="modal-overlay">
+                <div class="modal-content">
+                    <label for="modal-3" class="modal-close">&times;</label>
+                    <div class="modal-image">
+                        <!-- Add your image here -->
+                        <span class="placeholder-text">[Image]</span>
+                    </div>
+                    <div class="modal-details">
+                        <h3 class="modal-title">Tips for Staying Motivated</h3>
+                        <p class="modal-date">December 28, 2025 • 4:15 PM</p>
+                        <p class="modal-description">
+                            Sharing my favorite strategies for maintaining motivation and 
+                            productivity during busy times. First, set clear, achievable goals. 
+                            Break larger projects into smaller tasks that feel more manageable and 
+                            give you a sense of progress.
+                            <br><br>
+                            Second, create a routine that works for you. Consistency is key, but 
+                            also be flexible enough to adapt when needed. Take regular breaks, 
+                            celebrate small wins, and don't be too hard on yourself when things 
+                            don't go as planned.
+                            <br><br>
+                            Finally, surround yourself with positive influences. Whether it's 
+                            motivational content, supportive friends, or inspiring role models, 
+                            the energy around you can significantly impact your motivation levels. 
+                            Remember, progress over perfection!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MiFollowing Section -->
+            <div class="following-section">
+                <h2 class="section-header">MiFollowing</h2>
+                <div class="following-profiles">
+                    <div class="profile">
+                        <div class="profile-circle">
+                            <!-- Add profile image here -->
+                            <span class="placeholder-text">JR</span>
+                        </div>
+                        <p class="profile-name">Jen Raina R. Teodoro</p>
+                    </div>
+                    <div class="profile">
+                        <div class="profile-circle">
+                            <!-- Add profile image here -->
+                            <span class="placeholder-text">JA</span>
+                        </div>
+                        <p class="profile-name">Joy Anne B. Ciaris Nuqui</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Follow Me Section -->
+            <div class="follow-me-section">
+                <h2 class="section-header">Follow Me! :D</h2>
+                <div class="follow-links">
+                    <a href="#" class="follow-link">Facebook</a>
+                    <a href="#" class="follow-link">Instagram</a>
+                    <a href="#" class="follow-link">Twitter</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 MiBlog. All rights reserved. Made with ❤️ by Hannah</p>
+    </footer>
+</body>
+</html>
