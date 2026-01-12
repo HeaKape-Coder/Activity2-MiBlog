@@ -219,7 +219,7 @@ body {
 
 .image-placeholder {
     width: 100%;
-    border: 3px solid #460E59;
+    border: 4px dotted #460E59;
     border-radius: 8px;
     margin: 1.5rem 0;
     overflow: hidden;
@@ -319,6 +319,7 @@ body {
 .grid-item {
     position: relative;
     overflow: hidden;
+    border: 2.5px dotted #460E59;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -354,8 +355,10 @@ body {
 
 .image-name {
     color: white;
-    font-size: 1.2rem;
-    font-family: 'Jomhuria', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: normal;
+    font-weight: normal;
+    font-family: 'Jomolhari', serif;
     text-align: center;
 }
 
