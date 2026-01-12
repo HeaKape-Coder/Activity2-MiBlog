@@ -848,7 +848,7 @@ body {
     
     .btn-see-more {
         margin-top: 0.5rem;
-        width: 75%;
+        width: 55%;
     }
     
     .post-title {/* Blog Post Title: Hannah's MiBlog*/
@@ -929,22 +929,23 @@ body {
     /* 1. Logo image bigger and above MiBlog text */
     .logo {
         flex-direction: column;
-        font-size: 3rem;
+        font-size: 5rem;
         gap: 0.2rem;
+        margin-bottom: 0%;
     }
     
     .logo-icon {
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         order: -1; /* Place above text */
     }
     
     /* 2. Navigation in 2 rows, centered */
     .nav-links {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, auto);
-        gap: 0.5rem;
+        grid-template-columns: repeat(1 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
         text-align: center;
         width: 100%;
         margin: 1rem 0;
@@ -954,6 +955,11 @@ body {
         font-size: 1.2rem;
     }
     
+    .btn-see-more {
+        margin-top: 0rem;
+        width: 60%;
+    }
+
     .social-link img {
         width: 18px;
         height: 18px;
@@ -961,7 +967,7 @@ body {
     
     /* 3. HANNAH'S MIBLOG bigger font */
     .post-title {
-        font-size: 3rem;
+        font-size: 4rem;
         text-align: center;
     }
     
