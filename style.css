@@ -926,13 +926,32 @@ body {
 
 /* Small mobile devices */
 @media (max-width: 480px) {
+    /* 1. Logo image bigger and above MiBlog text */
     .logo {
-        font-size: 6rem;
+        flex-direction: column;
+        font-size: 3rem;
+        gap: 0.2rem;
     }
     
     .logo-icon {
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        height: 60px;
+        order: -1; /* Place above text */
+    }
+    
+    /* 2. Navigation in 2 rows, centered */
+    .nav-links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 0.5rem;
+        text-align: center;
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+    .nav-link {
+        font-size: 1.2rem;
     }
     
     .social-link img {
@@ -940,12 +959,93 @@ body {
         height: 18px;
     }
     
+    /* 3. HANNAH'S MIBLOG bigger font */
     .post-title {
-        font-size: 2rem;
+        font-size: 3rem;
+        text-align: center;
     }
     
+    /* 4. Main post image show whole, resize small */
+    .post-content .image-placeholder {
+        height: 250px;
+    }
+    
+    .image-placeholder img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* 5. Embracing Change image above text, resize */
+    .content-with-images.reverse {
+        flex-direction: column;
+    }
+    
+    .content-with-images.reverse .image-right {
+        order: -1; /* Image above text */
+    }
+    
+    .image-right .image-placeholder {
+        height: 200px;
+    }
+    
+    /* 6. Memorable Moments one column */
+    .image-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 200px);
+        gap: 0.5rem;
+    }
+    
+    /* 7. Section headers same size as post-title */
     .section-header {
-        font-size: 1.8rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    /* 8. Blogger profile bigger, info centered */
+    .blogger-image img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .blogger-info {
+        text-align: center;
+    }
+    
+    /* 9. Footer HeaKape-Coder color */
+    .footer a {
+        color: #c23da7;
+    }
+    
+    /* 10. MiFollowing profiles bigger */
+    .profile-circle {
+        width: 100px;
+        height: 100px;
+    }
+    
+    /* 11. Modal popup normal size */
+    .modal-content {
+        max-width: 95%;
+        max-height: 80vh;
+    }
+    
+    .modal-image {
+        width: 100%;
+        height: 250px;
+    }
+    
+    .modal-details {
+        width: 100%;
+        padding: 1rem;
+    }
+    
+    /* 12. Fix extra white space on right */
+    body {
+        overflow-x: hidden;
+    }
+    
+    .container {
+        padding: 0 0.5rem;
     }
     
     .post-subtitle {
